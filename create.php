@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-// Perubahan dari MacBook kamu
-=======
-// Perubahan dari GitHub
->>>>>>> 69b3813
+<h2>hahaha</h2>
