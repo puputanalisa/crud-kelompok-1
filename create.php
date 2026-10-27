@@ -1,2 +1,5 @@
-haiii aku fadli
-<h2>hahaha</h2>
+<<<<<<< HEAD
+// Perubahan dari MacBook kamu
+=======
+// Perubahan dari GitHub
+>>>>>>> 69b3813
