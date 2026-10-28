@@ -4,11 +4,9 @@ include 'koneksi.php';
 
 $id = $_GET['id'];
 
-// Ambil data barang berdasarkan ID
 $query = mysqli_query($conn, "SELECT * FROM barang WHERE id='$id'");
 $barang = mysqli_fetch_assoc($query);
 
-// Jika tombol Update diklik
 if (isset($_POST['update'])) {
     $kode = $_POST['kode_barang'];
     $nama = $_POST['nama_barang'];
