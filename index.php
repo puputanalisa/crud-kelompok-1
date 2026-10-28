@@ -22,7 +22,7 @@
         <table border="1" cellpadding="10" cellspacing="0">
             <tr>
                 <th>No</th>
-                <th>Nama Barang</th>
+                <th>Nama Barangs</th>
                 <th>Stok</th>
                 <th>Aksi</th>
             </tr>
