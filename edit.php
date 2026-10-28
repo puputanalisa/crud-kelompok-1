@@ -14,8 +14,7 @@ if (isset($_POST['update'])) {
     $stok = $_POST['stok'];
     $harga = $_POST['harga'];
 
-    // Update data ke database
-    $query = mysqli_query($conn, "UPDATE barang SET
+    $query = mysqli_query($koneksi, "UPDATE barang SET
         kode_barang='$kode',
         nama_barang='$nama',
         kategori='$kategori',
