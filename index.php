@@ -22,8 +22,10 @@
         <table border="1" cellpadding="10" cellspacing="0">
             <tr>
                 <th>No</th>
-                <th>Nama Barangs</th>
+                <th>Nama Barang</th>
                 <th>Stok</th>
+                <th>Harga</th>
+                <th>Kategori</th>
                 <th>Aksi</th>
             </tr>
 
@@ -36,7 +38,8 @@
                     <td><?= $no++; ?></td>
                     <td><?= htmlspecialchars($data['nama_barang']); ?></td>
                     <td><?= htmlspecialchars($data['stok']); ?></td>
-                    <td>
+                    <td>Rp <?= number_format($data['harga'], 0, ',', '.'); ?></td>
+                    <td>kategori: <?= htmlspecialchars($data['kategori']); ?> |
                         <a href="edit.php?id=<?= $data['id']; ?>">Edit</a> |
 
                         <a href="hapus.php?id=<?= $data['id']; ?>"
