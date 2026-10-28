@@ -39,7 +39,7 @@
                     <td><?= htmlspecialchars($data['nama_barang']); ?></td>
                     <td><?= htmlspecialchars($data['stok']); ?></td>
                     <td>Rp <?= number_format($data['harga'], 0, ',', '.'); ?></td>
-                    <td>kategori: <?= htmlspecialchars($data['kategori']); ?> |
+                    <td><?= htmlspecialchars($data['kategori']); ?></td>
                     <td>
                         <a href="edit.php?id=<?= $data['id']; ?>">Edit</a> |
 
