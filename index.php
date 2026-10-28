@@ -25,6 +25,7 @@
                 <th>Nama Barang</th>
                 <th>Stok</th>
                 <th>Harga</th>
+                <th>Kategori</th>
                 <th>Aksi</th>
             </tr>
 
