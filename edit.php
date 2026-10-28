@@ -4,7 +4,7 @@ include 'koneksi.php';
 
 $id = $_GET['id'];
 
-$query = mysqli_query($conn, "SELECT * FROM barang WHERE id='$id'");
+$query = mysqli_query($koneksi, "SELECT * FROM barang WHERE id='$id'");
 $barang = mysqli_fetch_assoc($query);
 
 if (isset($_POST['update'])) {
